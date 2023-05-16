@@ -1,0 +1,5 @@
+div{
+    display: grid;
+    place-items: center;
+    background-color: rgb(250, 161, 60);
+}
