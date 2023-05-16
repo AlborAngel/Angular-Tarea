@@ -1,7 +1,7 @@
 <img src="\assets\Angular logo.png" class="img-png" alt="Angular" width="150px">
 
 <h1>Tareas Pendientes</h1>
-<form (ngSubmit) = "addTodo">
+<form (ngSubmit) = "addTodo()">
     <input [(ngModel)] ="newTodo" name="newTodo" placeholder="Añadir nueva tarea">
     <button type="submit" class="btn btn-primary" value="Submit">Agregar</button>
 </form>

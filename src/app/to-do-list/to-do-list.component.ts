@@ -11,7 +11,7 @@ export class ToDoListComponent {
   newTodo: string = '';
 
   constructor() {
-    this.todos = [];
+    this.todos = []; // Agregar esta línea para inicializar la lista todos
   }
   
   addTodo() {
